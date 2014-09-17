@@ -28,6 +28,7 @@ public class ExamException {
                 System.out.println("0으로 나눌 수 없습니다.");
             } catch (Exception e) {
                 // 상위예외객체가 항상 아래에 와야 한다.****
+                // 상위예외객체가 실행이 되면 하위 객체가 의미가 없어지므로
                 System.out.println("숫자만 작성");
             } finally {// 무조건 수행되는 개념!
                 System.out.println("무조건 실행되며, 자원을 반환!");
